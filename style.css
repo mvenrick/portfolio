@@ -1,0 +1,200 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* use viewport-relative units to cover page fully */
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* include border and padding in element width and height */
+* {
+    box-sizing: border-box;
+}
+
+/* full-sized  container that fills up the page */
+.first {
+    height: 100%;
+    width: 100%;
+
+    /* example padding, font-size, background, etc */
+    padding: 10px;
+    font-size: 20px;
+    background-color: #b7ebf2;
+}
+
+.second {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #fffcf5;
+}
+
+span {
+    background-color: rgb(11, 11, 11);
+    color: rgb(191, 240, 167);
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: solid rgb(252, 254, 254) 2px;
+    display: inline-block;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(59, 40, 99)
+}
+
+a:hover {
+    color: rgb(226, 162, 246)
+}
+
+
+img {
+    border-radius: 50%;
+    border: solid #3f3f3f 2px;
+}
+
+#headshot {
+    height: 160px;
+    width: 160px;
+    margin-left: 25%;
+    transition: all 2s;
+}
+
+#rpi {
+    height: 160px;
+    width: 160px;
+    margin-left: 25%;
+    transition: all 2s;
+}
+
+#front-end {
+    height: 160px;
+    width: 160px;
+    margin-top: 15px;
+    margin-left: 25%;
+    transition: all 2s;
+}
+
+#back-end {
+    height: 160px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 25%;
+    transition: all 2s;
+}
+
+#profile {
+    height: 160px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 25%;
+    transition: all 2s;
+}
+
+#codepen {
+    height: 160px;
+    width: 160px;
+    margin-left: 25%;
+    margin-top: 30px;
+    transition: all 2s;
+}
+
+#headshot:hover,
+#rpi:hover,
+#front-end:hover,
+#back-end:hover,
+#codepen:hover,
+#profile:hover {
+    height: 200px;
+    width: 200px;
+    transition-timing-function: ease;
+}
+
+.card {
+    width: 350px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: xx-large;
+    color: #3f3f3f;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: x-large;
+    color: #3f3f3f;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: #3f3f3f;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 480px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 18px;
+
+    }
+
+    #headshot {
+        margin-top: 35px;
+    }
+}
+
+@media screen and (min-width: 728px) {
+    h1 {
+        font-size: 46px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 20px;
+
+    }
+
+    #headshot {
+        margin-top: 35px;
+    }
+
+    #profile {
+        margin-top: 10px;
+    }
+
+    .card {
+        width: 450px;
+        height: 225px;
+    }
+
+}
+
+/*palette
+green - #6ffc03
+black - #171717
+light grey - #656664
+dark grey - #3f3f3f
+off white - #f8faf7
+white - #fffcf5
